@@ -24,8 +24,8 @@ public class TC01_ValidateBestSeller {
 				.init()
 				.openBrowser("chrome")
 				.goToUrl("https://amazon.com")
-				.clickOnBestSellers();
-				//.quit();
+				.clickOnBestSellers()
+				.quit();
 				
 	//	AmazonPomPage bp = new BestSellerPage();
 //		bp.clickOnBestSellers();
